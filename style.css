@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    transition: background-color 0.3s, color 0.5s;
+}
+
+header {
+    background: linear-gradient(135deg, #3498db, #9944bb);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #fff;
+    color: #5a80a6;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #12d886;
+    color: #fff;
+}
+
+nav {
+    background-color: #2c3e50;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #3498db;
+}
+
+.container {
+    width: 85%;
+    margin: 20px auto;
+}
+
+h2 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project, .skills-list, .table, .extracurricular {
+    background-color: #5f465732;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(24, 22, 22, 0.1);
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #244245;
+    color: #fff;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+.dark-mode header {
+    background: linear-gradient(135deg, #24384c, #1abc9c);
+}
+
+.dark-mode nav ul li a {
+    color: #fff;
+}
